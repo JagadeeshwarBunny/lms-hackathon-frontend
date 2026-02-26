@@ -3,7 +3,7 @@ import axios from 'axios';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import { User, BookOpen, Users, FileText, Award, LogIn, UserPlus } from 'lucide-react';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://resplendent-smile.railway.app/api';
 
 function App() {
   const [user, setUser] = useState(null);
